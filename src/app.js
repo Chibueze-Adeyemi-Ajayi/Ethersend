@@ -1,3 +1,1 @@
-var x = 0;
-
-console.log(x);
+var ethers = require("ethers");
