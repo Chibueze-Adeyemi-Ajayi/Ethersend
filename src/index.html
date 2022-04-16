@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-jpg" href="ethereum-icon.png">
+    <meta name="description" content="A decentralized app for Ethereum transfer">
+    <meta name="author" content="Ajayi Chibueze Adeyemi, Blockchain eev">
+    <link rel="stylesheet" href="style.css">
+    <meta name="keyword" content="Ethereum, blockchain, web3.0">
+    <script src="https://cdn.ethers.io/scripts/ethers-v3.min.js" charset="utf-8" type="text/javascript"></script>
+    <title>InvGiveaway - Send Ethereum</title>
+
+  </head>
+
+  <body>
+
+    <div class="form">
+
+      <p class="input-balance" value="Wallet Address">
+        
+         <span class="right-value">
+           <span id="walletx" class="display"><marquee id="marquee">Wallet address</marquee></span>
+           <span id="balance" class="display">Balance ETH</span>
+         </span>
+
+         <img src="ethereum-icon.png">
+      
+      </p> 
+      <br>
+      <input class="input" value="" id="amount" type="number" placeholder="Ethereum"/>
+      <input class="input" id="wallet" placeholder="Wallet Address"/>
+      <input type="submit" class="input-btn" value="Send" />
+     
+    </div>
+
+  </body>
+  
+  <script src="index.js" type="module"></script>
+
+</html>

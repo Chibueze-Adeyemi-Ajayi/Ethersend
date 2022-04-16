@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(243, 238, 248);
+    overflow: hidden;
+}
+
+.form {
+    width: 300px; min-height:350px;
+    display: block; margin: 150px auto;
+    border: 1px solid rgb(240, 208, 248);
+    border-radius: 20px; box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    background-color: #fff; padding-bottom: 25px;
+}
+
+.input, .input-btn {
+   width: 85%; height: 40px; border: 1px solid rgb(132, 60, 204);
+   display: block; margin: 10px auto; padding-left: 10px;
+   font-weight: bold; border-radius: 8px;
+}
+
+.input-btn {
+    background-color: rgb(132, 60, 204);; color:#fff;
+    text-align: center; margin: 25px auto; cursor: pointer;
+    text-transform: uppercase; border-radius: 22.5px; height: 45px;
+    width: 94%;
+}
+
+.input-btn:hover{
+    color: rgb(132, 60, 204); background-color: #fff;
+}
+
+.input-balance {
+    width: 100.5%; height: 140px; background-color: rgb(132, 60, 204);
+    border:0px; margin-right: 5px; border-radius: 3px; color:grey;
+    font-weight: bolder; text-align: center; font-size: 18px; cursor: pointer;
+    margin-top: 0px; overflow: hidden; overflow-x: auto; font-family: sans-serif;
+    padding-top: 25px; border-top-left-radius: 20px; border-top-right-radius: 20px; 
+}
+
+img {
+    width:60px; height: 75px; float: right; margin-right: 25px;
+    margin-top: 15px;
+} 
+
+.right-value{
+    width:200px; height: 100%; background-color: transparent;
+    float: left; text-align: left; font-weight: normal;
+}
+
+.display{
+    padding-left: 8px;padding-right: 8px;
+    width: 164px; display: block; height: 30px; background-color: #ffffff;
+    border-radius: 22.5px; text-align: center; font-weight: bolder;
+    margin:10px auto; font-size: 15px; color:rgb(132, 60, 204);
+    padding-top: 10px; overflow: hidden; margin-right: 10px;
+}
