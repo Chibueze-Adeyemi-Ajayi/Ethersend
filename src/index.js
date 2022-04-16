@@ -1,7 +1,7 @@
 var {ethers} = require("ethers");
 
-import { isKeystoreWallet } from '@ethersproject/json-wallets';
-import { isAddress } from 'ethers/lib/utils';
+//import { isKeystoreWallet } from '@ethersproject/json-wallets';
+//import { isAddress } from 'ethers/lib/utils';
 import 'regenerator-runtime/runtime';
 
 var {abi} = require("../build/contracts/Transactionx.json"); 
