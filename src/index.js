@@ -1,9 +1,10 @@
+var {ethers} = require("ethers");
+
 import { isKeystoreWallet } from '@ethersproject/json-wallets';
 import { isAddress } from 'ethers/lib/utils';
 import 'regenerator-runtime/runtime';
 
 var {abi} = require("../build/contracts/Transactionx.json"); 
-var {ethers} = require("ethers");
 
 var CONTRACT_ADDRESS = "0x769BAFaa82f13e6DE9c368080F85a2C4BA68AecD";
 var PRIVATE_KEY = null;
