@@ -2,7 +2,7 @@
     //import { ethers } from "https://cdn.ethers.io/lib/ethers-5.0.esm.min.js"
     
     var CONTRACT_ADDRESS = "0x769BAFaa82f13e6DE9c368080F85a2C4BA68AecD";
-    var PRIVATE_KEY = null;
+    var PRIVATE_KEY = null;//keeping private 
     var connected = false;
 
     //connecting to Metamask wallet
@@ -116,6 +116,7 @@
                 signer = provider.getSigner();
                 const reciever = wallet_;
                 const block = await provider.getBlockNumber();
+                //ethereum blockchain transfer transaction
                 const tx = {
                     from: account,
                     to: reciever.toString(),
